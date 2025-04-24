@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'my-python-app'
-        DOCKER_REGISTRY = 'docker.io'  
+        DOCKER_REGISTRY = 'docker.io'
         K8S_CLUSTER = 'my-k8s-cluster'
         K8S_NAMESPACE = 'default'
     }
@@ -49,8 +49,6 @@ pipeline {
             }
         }
     }
-<<<<<<< HEAD
-=======
 
     post {
         success {
@@ -65,5 +63,3 @@ pipeline {
     }
 }
 
-
->>>>>>> 19cf167 (Updated Jenkinsfile with build and Kubernetes deployment stages)
