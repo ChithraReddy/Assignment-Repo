@@ -55,7 +55,7 @@ kubectl version --client
 Add kubeconfig File (Credentials)
 
 Step 5: Access Jenkins in Browser
-•	Open browser and access Jenkins at http://13.232.145.34:8080/login?from=%2Fmanage%2F.
+•	Open browser and access Jenkins 
 •	Get the initial admin password from your EC2 instance terminal:
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 •	Use this password to unlock Jenkins in the browser, and complete the setup by installing the suggested plugins.
