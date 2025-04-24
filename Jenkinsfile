@@ -49,3 +49,21 @@ pipeline {
             }
         }
     }
+<<<<<<< HEAD
+=======
+
+    post {
+        success {
+            echo 'Deployment was successful!'
+        }
+        failure {
+            echo 'Deployment failed.'
+        }
+        always {
+            echo 'Pipeline execution completed.'
+        }
+    }
+}
+
+
+>>>>>>> 19cf167 (Updated Jenkinsfile with build and Kubernetes deployment stages)
