@@ -52,13 +52,13 @@ pipeline {
 
     post {
         success {
-            echo '✅ Deployment was successful!'
+            echo 'Deployment was successful!'
         }
         failure {
-            echo '❌ Deployment failed.'
+            echo 'Deployment failed.'
         }
         always {
-            echo 'ℹ️ Pipeline execution completed.'
+            echo 'Pipeline execution completed.'
         }
     }
 }
